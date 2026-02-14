@@ -8,9 +8,11 @@ const App = () => {
         <Route path="/" element={<UserLayout />}>
           {/* User Layout */}
         </Route>
-        <Route>{/* Admin Layout */}</Route>
+       
       </Routes>
     </BrowserRouter>
+
+    
   );
 };
 export default App;
