@@ -1,15 +1,16 @@
-// import Header from "../Common/Header";
-import { Header } from "../common/Header";
+import { Header } from "../Common/Header"
 
 const UserLayout = () => {
   return (
     <>
-      <Header />
-      <main className="p-6">
-        <h2 className="text-xl">User layout works ✅</h2>
-      </main>
-    </>
-  );
-};
+    {/*Header*/}
+    <Header />
+    {/*Main content*/}
+    {/*Footer*/}
 
-export default UserLayout;
+
+
+    </>
+  )
+}
+export default UserLayout
