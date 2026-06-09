@@ -1,5 +1,6 @@
 import React from 'react'; // Removed unused useState import
 import { IoMdClose } from "react-icons/io"; 
+import CartContents from '../cart/CartContents';
 
 // FIXED: Added curly braces { } around the props here
 const CartDrawer = ({ drawerOpen, toggleCartDrawer }) => {
@@ -21,6 +22,7 @@ const CartDrawer = ({ drawerOpen, toggleCartDrawer }) => {
             <div className='flex-grow p-4 overflow-y-auto'>
               <h2 className='text-xl font-semibold mb-4'>Your Cart</h2>
             {/* Components for the Cart Contents  */}
+            <CartContents/>
             </div>
             {/* Checkout button fixed at the bottom */}
             <div className='p-4 bg-white sticky bottom-0'>

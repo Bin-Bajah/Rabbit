@@ -8,7 +8,7 @@ const CartContents = () => {
             size: "M",
             color: "Red",
             price: 15,
-            image: "https://images.unsplash.com/photo-1521572267360-ee0c2909d518?w=500"
+            image: "/image/man.jpg"
         },
         {
             productId: 2,
